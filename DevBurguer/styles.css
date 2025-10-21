@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    background-image: url(/imgs/bg-banner-top.jpg);
+    background-color: #3e150f;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.container-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #fdb058;
+    border: none;
+    border-radius: 8px;
+    color: rgb(78, 44, 1);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    width: 220px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #fdb058;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    color: azure;
+}
+
+.item-price {
+    font-size: 25px;
+    font-weight: 800;
+    color: #f4910e;
+    text-align: center;
+}
+
+.item-text {
+    font-size: 20px;
+    text-align: center;
+}
