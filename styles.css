@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(/imgs/bg-banner-top.jpg);
+    background-image: url(./imgs/bg-banner-top.jpg);
     background-color: #3e150f;
     background-size: auto;
     background-repeat: no-repeat;
@@ -71,4 +71,5 @@ p {
 .item-text {
     font-size: 20px;
     text-align: center;
+
 }
